@@ -2,7 +2,7 @@ const Background = () => {
   
 
   return (
-    <div className="w-screen h-screen z-0 absolute">
+    <div className="w-screen overflow-clip h-screen z-0 absolute">
       {/* Video Background */}
       <video
         autoPlay

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="z-40 px-4 pt-4 md:px-6 md:pt-6 bg-black/20 shadow-black shadow-2xl rounded-lg">
+    <footer className="z-40 px-4 pt-4 md:px-6 md:pt-6 bg-black shadow-black shadow-2xl rounded-lg">
       <div className="flex justify-between shadow-lg shadow-black">
         {[...Array(5)].map((_, i) => (
           <motion.div

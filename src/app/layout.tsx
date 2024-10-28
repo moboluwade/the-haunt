@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${BahianaRegular.variable} antialiased h-screen w-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} ${BahianaRegular.variable} antialiased h-screen max-w-screen`}
       >
         {children}
       </body>
