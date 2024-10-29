@@ -24,7 +24,7 @@
 
 [x] Fix up the scrollbar
 [x] Fix up the header
-[] Fix up the Lore animation speed.
-[] Make will you join the haunt more appealing.
-[] Add Tokenomics to TBD.
+[x] Fix up the Lore animation speed.
+[x] Make will you join the haunt more appealing.
+[x] Add Tokenomics to TBD.
 [] Add Lightning animations.
