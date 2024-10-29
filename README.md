@@ -19,3 +19,12 @@
 [x] Design a lore component.
 [x] Add a Lore component.
 [] Publish
+
+### Specific tasks
+
+[x] Fix up the scrollbar
+[x] Fix up the header
+[] Fix up the Lore animation speed.
+[] Make will you join the haunt more appealing.
+[] Add Tokenomics to TBD.
+[] Add Lightning animations.

@@ -2,13 +2,13 @@ const Background = () => {
   
 
   return (
-    <div className="w-screen overflow-clip h-screen z-0 absolute">
+    <div className="w-screen overflow-clip h-[500px] md:h-screen z-0 absolute">
       {/* Video Background */}
       <video
         autoPlay
         muted
         playsInline
-        className="absolute z-0 top-0 left-0 w-full h-full object-cover"
+        className="absolute z-0 top-0 left-0 w-full md:h-full object-cover"
         style={{
           minWidth: "100%",
           minHeight: "100%",
