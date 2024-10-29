@@ -39,7 +39,7 @@ export default function Lore() {
           className="flex flex-row justify-center text-2xl md:text-6xl font-bold mb-8 text-center bahiana-font"
           initial={{ opacity: 0, y: 50 }}
           // animate={mainControls}
-          transition={{ duration: 1, delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
           // variants={{
           //   visible: { opacity: 1, y: 0 },
           // }}
@@ -67,7 +67,7 @@ export default function Lore() {
           className="mb-6 text-sm leading-loose"
           initial={{ opacity: 0, y: 20 }}
           // animate={mainControls}
-          transition={{ duration: 1, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
           // variants={{
           //   visible: { opacity: 1, y: 0 },
           // }}
@@ -91,7 +91,7 @@ export default function Lore() {
           className="mb-6 text-sm leading-loose"
           initial={{ opacity: 0, y: 20 }}
           // animate={mainControls}
-          transition={{ duration: 1, delay: 0.6 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
           // variants={{
           //   visible: { opacity: 1, y: 0 },
           // }}
@@ -115,7 +115,7 @@ export default function Lore() {
           className="mb-6 text-sm leading-loose"
           initial={{ opacity: 0, y: 20 }}
           // animate={mainControls}
-          transition={{ duration: 1, delay: 0.8 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
           // variants={{
           //   visible: { opacity: 1, y: 0 },
           // }}
@@ -144,7 +144,7 @@ export default function Lore() {
               animate={{ opacity: 1, y: 0 }}
               transition={{
                 duration: 1,
-                delay: index * 0.1,
+                delay: index * 0.2,
                 type: "spring",
                 stiffness: 50,
                 damping: 10,
@@ -190,7 +190,7 @@ export default function Lore() {
           className="w-full mt-8"
           initial={{ opacity: 0, y: 50 }}
           // animate={mainControls}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 0.5 }}
           // variants={{
           //   visible: { opacity: 1, y: 0 },
           // }}
