@@ -2,7 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Header() {
   const [showFollowText, setShowFollowText] = useState(false);
 
@@ -50,13 +50,15 @@ export default function Header() {
           whileHover={{ scale: 1.1 }}
           className="flex flex-col items-center"
         >
-          <Image
-            className="my-auto"
-            width={40}
-            height={40}
-            src="/icons8-twitterx.svg"
-            alt="Twitter X Logo"
-          />
+          <Link href="https://x.com/ailloween">
+            <Image
+              className="my-auto"
+              width={40}
+              height={40}
+              src="/icons8-twitterx.svg"
+              alt="Twitter X Logo"
+            />
+          </Link>
         </motion.div>
       </div>
       <motion.div
@@ -65,12 +67,14 @@ export default function Header() {
         whileHover={{ scale: 1.1 }}
         className="absolute flex-row items-center right-4 pl-42 md:hidden flex"
       >
-        <Image
-          width={40}
-          height={40}
-          src="/icons8-twitterx.svg"
-          alt="Twitter X Logo"
-        />
+        <Link href="https://x.com/ailloween">
+          <Image
+            width={40}
+            height={40}
+            src="/icons8-twitterx.svg"
+            alt="Twitter X Logo"
+          />
+        </Link>
       </motion.div>
     </header>
   );
